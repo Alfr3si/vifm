@@ -1,11 +1,10 @@
-"  ____ _____ 
-" |  _ \_   _|  Derek Taylor (DistroTube)
-" | | | || |    http://www.youtube.com/c/DistroTube
-" | |_| || |    http://www.gitlab.com/dwt1/ 
-" |____/ |_|
-" |____/ |_|  	
+#    ██╗   ██╗██╗███████╗███╗   ███╗
+#    ██║   ██║██║██╔════╝████╗ ████║
+#    ██║   ██║██║█████╗  ██╔████╔██║
+#    ╚██╗ ██╔╝██║██╔══╝  ██║╚██╔╝██║
+#     ╚████╔╝ ██║██║     ██║ ╚═╝ ██║
+#      ╚═══╝  ╚═╝╚═╝     ╚═╝     ╚═╝
 
-" vim: filetype=vifm :
 " My config file for the vifm terminal file manager.
 " ------------------------------------------------------------------------------
 
@@ -66,7 +65,8 @@ set norunexec
 " Selected color scheme
 " The following line will cause issues if using vifm.vim with regular vim.
 " Either use neovim or comment out the following line.
-" colorscheme distrotube
+
+colorscheme colors.vifm
 
 " Format for displaying time in file list. For example:
 " TIME_STAMP_FORMAT=%m/%d-%H:%M
@@ -517,3 +517,4 @@ nnoremap <f8> :delete<cr>
 
 " Word
 fileviewer *.docx docx2txt %c -
+
